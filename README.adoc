@@ -1,0 +1,31 @@
+= README
+
+== Estructura
+
+Hay 3 subproyectos:
+
+. app
+. app2
+. app3
+
+== Ejecución
+
+Para ejecutar el respectivo subproyecto se usa la siguiente sintaxis:
+
+[source,bash]
+----
+./gradlew :<subproyecto>:<tarea>
+----
+
+== Ejemplos
+
+[source,bash]
+----
+./gradlew :app:run
+./gradlew :app2:run
+./gradlew :app3:run
+----
+
+
+
+
