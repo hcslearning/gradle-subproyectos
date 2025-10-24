@@ -8,6 +8,18 @@ Hay 3 subproyectos:
 . app2
 . app3
 
+Solo se requiere agregarlos en el archivo _settings.gradle.kts_.
+
+[source,kotlin]
+----
+// otras configuraciones
+
+rootProject.name = "Subproyectos"
+include("app")
+include("app2")
+include("app3")
+----
+
 == Ejecución
 
 Para ejecutar el respectivo subproyecto se usa la siguiente sintaxis:
@@ -25,7 +37,3 @@ Para ejecutar el respectivo subproyecto se usa la siguiente sintaxis:
 ./gradlew :app2:run
 ./gradlew :app3:run
 ----
-
-
-
-
