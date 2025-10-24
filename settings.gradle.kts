@@ -12,3 +12,5 @@ plugins {
 
 rootProject.name = "Subproyectos"
 include("app")
+include("app2")
+include("app3")
